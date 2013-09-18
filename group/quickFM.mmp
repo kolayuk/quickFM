@@ -1,0 +1,37 @@
+
+TARGET			quickFM.exe
+UID			   0x100039CE 0x20040CBC
+VENDORID	  	  0
+TARGETTYPE		exe
+EPOCSTACKSIZE	 0x5000
+OPTION GCCE -fno-strict-aliasing
+SYSTEMINCLUDE \epoc32\include \epoc32\include\variant \epoc32\include\ecom
+USERINCLUDE	   ..\inc ..\data
+
+SOURCEPATH		..\data
+START RESOURCE	quickFM.rss
+HEADER
+TARGETPATH resource\apps
+END //RESOURCE
+
+START RESOURCE	quickFM_reg.rss
+TARGETPATH 	  \private\10003a3f\apps
+END //RESOURCE
+
+LIBRARY			euser.lib apparc.lib cone.lib eikcore.lib avkon.lib
+LIBRARY			commonengine.lib efsrv.lib estor.lib eikcoctl.lib eikdlg.lib 
+LIBRARY			eikctl.lib bafl.lib fbscli.lib aknnotify.lib aknicon.lib
+LIBRARY			etext.lib gdi.lib egul.lib insock.lib
+LIBRARY			ecom.lib InetProtUtil.lib http.lib esock.lib
+LIBRARY			apgrfx.lib aknskins.lib aknskinsrv.lib aknswallpaperutils.lib centralrepository.lib ws32.lib hwrmfmtxclient.lib
+
+LANG 				16 01
+
+SOURCEPATH		..\src
+
+#ifdef ENABLE_ABIV2_MODE
+DEBUGGABLE_UDEBONLY
+#endif
+
+SOURCE About.cpp AboutView.cpp quickFMApplication.cpp quickFMDocument.cpp quickFMAppUi.cpp Utils.cpp
+CAPABILITY ReadDeviceData WriteDeviceData SwEvent NetworkServices LocalServices ReadUserData WriteUserData UserEnvironment

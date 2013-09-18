@@ -1,0 +1,33 @@
+/*
+========================================================================
+ Name        : About.l16
+ Author      : Usanov-Kornilov Nikolay (aka Kolay)
+ Copyright   : 
+Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2011
+
+ Description : 
+========================================================================
+*/
+// localized strings for language: Russian (16)
+CHARACTER_SET UTF8
+#define STR_AboutView_3 ""
+#define STR_AboutView_4 "quickFM"
+#define STR_AboutView_1 ""
+#define STR_AboutView_2 ""
+#define qtn_exit 								"Выход"
+#define qtn_about_menu 							"О программе"
+#define qtn_menu_goto_ovi						"Другие продукты"
+#define qtn_gotobuy_dlgmsg						"Сейчас в браузере откроется страница с нашими продуктами в магазине Ovi Store"
+
+#define qtn_cancel								"Отмена"
+#define qtn_continue							"Продолжить"
+
+#define qtn_publisher_information				"Издатель: Александр Фокин"
+#define qtn_autor_information					"Разработчик: Усанов-Корнилов Николай"
+#define qtn_copyright_information				"(c) 2011"
+#define qtn_support_information					"Все ваши вопросы и пожелания отправляйте по адресу:"
+#define qtn_email_information					"support@symdeveloper.ru"

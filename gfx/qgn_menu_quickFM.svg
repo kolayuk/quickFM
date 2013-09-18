@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="96px" height="96px" viewBox="0 0 96 96" enable-background="new 0 0 96 96" xml:space="preserve">
+<g id="Слой_1_1_">
+	<g>
+		
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="68.9834" y1="11.3398" x2="68.9834" y2="91.3403" gradientTransform="matrix(1 0 0 -1 -20.96 99.3398)">
+			<stop  offset="0" style="stop-color:#05898D"/>
+			<stop  offset="1" style="stop-color:#0CB9BE"/>
+		</linearGradient>
+		<path fill="url(#SVGID_1_)" d="M88,47.999C88,77.633,77.645,88,48.024,88C18.407,88,8.047,77.632,8.047,47.999S18.408,8,48.024,8
+			C77.645,8,88,18.366,88,47.999z"/>
+		
+			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="144.4355" y1="1610.2598" x2="144.4355" y2="1530.2607" gradientTransform="matrix(1 0 0 1 -96.46 -1522.2607)">
+			<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.02"/>
+			<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0.31"/>
+		</linearGradient>
+		<path fill="url(#SVGID_2_)" d="M47.976,8C18.359,8,8,18.366,8,48c0,29.633,10.358,39.999,39.976,39.999
+			c29.62,0,39.976-10.365,39.976-39.999C87.953,18.366,77.594,8,47.976,8z M47.976,86.518c-28.785,0-38.5-9.718-38.5-38.518
+			c0-28.802,9.717-38.52,38.5-38.52c28.784,0,38.5,9.72,38.5,38.521C86.477,76.8,76.759,86.518,47.976,86.518z"/>
+	</g>
+</g>
+<path opacity="0.22" stroke="#000000" stroke-miterlimit="10" d="M78.523,60.768c0,7.062-5.902,12.732-12.967,12.732h-35.74
+	c-7.063,0-12.293-5.672-12.293-12.732V36.454c0-7.062,5.229-12.954,12.293-12.954h35.74c7.063,0,12.967,5.892,12.967,12.954V60.768z
+	"/>
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="68.96" y1="25.8398" x2="68.96" y2="75.8403" gradientTransform="matrix(1 0 0 -1 -20.96 99.3398)">
+	<stop  offset="0" style="stop-color:#484848"/>
+	<stop  offset="1" style="stop-color:#787879"/>
+</linearGradient>
+<path fill="url(#SVGID_3_)" d="M78.5,60.768c0,7.062-5.902,12.732-12.967,12.732h-35.74C22.73,73.5,17.5,67.828,17.5,60.768V36.454
+	c0-7.062,5.229-12.954,12.293-12.954h35.74c7.063,0,12.967,5.892,12.967,12.954V60.768z"/>
+<g id="Слой_2">
+	<rect x="22.833" y="34.813" opacity="0.21" width="48.583" height="3.271"/>
+	<rect x="30.906" y="32.969" opacity="0.21" width="3.25" height="2.948"/>
+	<rect x="38.833" y="32.969" opacity="0.21" width="3.417" height="2.948"/>
+	<rect x="46.833" y="32.969" opacity="0.21" width="3.333" height="2.531"/>
+	<rect x="54.917" y="32.969" opacity="0.21" width="3.208" height="2.531"/>
+	<rect x="62.917" y="32.969" opacity="0.21" width="3.25" height="2.531"/>
+	<rect x="22.818" y="57.943" opacity="0.21" width="48.583" height="3.271"/>
+	<rect x="30.891" y="60.109" opacity="0.21" width="3.25" height="2.948"/>
+	<rect x="38.818" y="60.109" opacity="0.21" width="3.417" height="2.948"/>
+	<rect x="46.818" y="60.526" opacity="0.21" width="3.333" height="2.531"/>
+	<rect x="54.901" y="60.526" opacity="0.21" width="3.208" height="2.531"/>
+	<rect x="62.901" y="60.526" opacity="0.21" width="3.25" height="2.531"/>
+	<rect x="50.99" y="42.032" opacity="0.21" width="3.021" height="10.937"/>
+	<rect x="42.99" y="42.032" opacity="0.21" width="3.021" height="10.937"/>
+	<rect x="34.979" y="42" opacity="0.21" width="3.021" height="10.938"/>
+	<rect x="58.99" y="42" opacity="0.21" width="3.021" height="10.937"/>
+	<rect x="30.99" y="45.063" opacity="0.21" width="3.021" height="4.937"/>
+	<rect x="38.99" y="45.063" opacity="0.21" width="3.021" height="4.937"/>
+	<rect x="55.011" y="45.063" opacity="0.21" width="3.021" height="4.937"/>
+	<rect x="46.011" y="38.875" opacity="0.21" width="4.979" height="18.125"/>
+	<rect x="62.99" y="45.063" opacity="0.21" width="3.021" height="4.937"/>
+</g>
+<g>
+	<rect x="47.5" y="58.5" fill="#FFFFFF" width="2" height="4"/>
+	<rect x="31.5" y="58.5" fill="#FFFFFF" width="2" height="4"/>
+	<rect x="39.5" y="58.5" fill="#FFFFFF" width="2" height="4"/>
+	<rect x="55.5" y="58.5" fill="#FFFFFF" width="2" height="4"/>
+	<rect x="63.5" y="58.5" fill="#FFFFFF" width="2" height="4"/>
+	<rect x="23.5" y="58.5" fill="#FFFFFF" width="47" height="2"/>
+	<rect x="47.5" y="33.5" fill="#FFFFFF" width="2" height="4"/>
+	<rect x="31.5" y="33.5" fill="#FFFFFF" width="2" height="4"/>
+	<rect x="39.5" y="33.5" fill="#FFFFFF" width="2" height="4"/>
+	<rect x="55.5" y="33.5" fill="#FFFFFF" width="2" height="4"/>
+	<rect x="63.5" y="33.5" fill="#FFFFFF" width="2" height="4"/>
+	<rect x="23.5" y="35.5" fill="#FFFFFF" width="47" height="2"/>
+</g>
+<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="69.46" y1="42.8398" x2="69.46" y2="59.8403" gradientTransform="matrix(1 0 0 -1 -20.96 99.3398)">
+	<stop  offset="0" style="stop-color:#E25545"/>
+	<stop  offset="1" style="stop-color:#ECB92E"/>
+</linearGradient>
+<rect x="46.5" y="39.5" fill="url(#SVGID_4_)" width="4" height="17"/>
+<g>
+	<rect x="51.5" y="42.5" fill="#FFFFFF" width="2" height="10"/>
+	<rect x="55.5" y="45.5" fill="#FFFFFF" width="2" height="4"/>
+	<rect x="63.5" y="45.5" fill="#FFFFFF" width="2" height="4"/>
+	<rect x="59.5" y="42.5" fill="#FFFFFF" width="2" height="10"/>
+	<rect x="35.5" y="42.5" fill="#FFFFFF" width="2" height="10"/>
+	<rect x="39.5" y="45.5" fill="#FFFFFF" width="2" height="4"/>
+	<rect x="31.5" y="45.5" fill="#FFFFFF" width="2" height="4"/>
+	<rect x="43.5" y="42.5" fill="#FFFFFF" width="2" height="10"/>
+</g>
+</svg>

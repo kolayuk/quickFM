@@ -1,0 +1,156 @@
+/*
+========================================================================
+ Name        : About.rssi
+ Author      : Usanov-Kornilov Nikolay (aka Kolay)
+ Copyright   : 
+Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2011
+
+ Description : 
+========================================================================
+*/
+#include "About.loc"
+
+RESOURCE AVKON_VIEW r_about_about_view
+	{
+	cba = r_empty_ok_buttons;
+	menubar = r_about_options_menu;
+	toolbar = 0;
+	}
+RESOURCE MENU_BAR r_about_options_menu
+	{
+	}
+RESOURCE STATUS_PANE_APP_MODEL r_about_status_pane
+	{
+	panes =
+		{
+		SPANE_PANE
+			{
+			id = EEikStatusPaneUidTitle;
+			type = EAknCtTitlePane;
+			resource = r_about_title_resource;
+			}
+		};
+	}
+RESOURCE TITLE_PANE r_about_title_resource
+	{
+	txt = STR_AboutView_4;
+	}
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// информация "О программе" /////////////////////////////////////////////////////////////////////////////////////////
+RESOURCE AVKON_VIEW r_about_view
+{
+	cba = R_AVKON_SOFTKEYS_OK_EMPTY;
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// страница в OVI
+RESOURCE DIALOG r_continue_cancel_query
+{
+	flags = EGeneralQueryFlags;
+	buttons = r_continue_cancel_buttons;
+	items =
+	{
+		DLG_LINE
+		{
+			type = EAknCtQuery;
+			id = EGeneralQuery;
+			control = AVKON_CONFIRMATION_QUERY
+			{
+				layout = EConfirmationQueryLayout;
+				animation = R_QGN_NOTE_INFO_ANIM;
+			};
+		}
+	};
+}
+
+RESOURCE CBA r_empty_ok_buttons
+{
+	buttons =
+	{
+		CBA_BUTTON
+		{
+			id = EAknSoftkeyEmpty;
+			txt = "";
+		}
+		,
+		CBA_BUTTON
+		{
+			id = EAknSoftkeyExit;
+			txt = "OK";
+		}
+	};
+}
+RESOURCE CBA r_continue_cancel_buttons
+{
+	buttons =
+	{
+		CBA_BUTTON
+		{
+			id = EAknSoftkeyOk;
+			txt = qtn_continue;
+		}
+		,
+		CBA_BUTTON
+		{
+			id = EAknSoftkeyCancel;
+			txt = qtn_cancel;
+		}
+	};
+}
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Resources for messages.
+RESOURCE TBUF R_PROGRAM_NAME						{buf = "quickFM v.%d.%d"; }
+
+RESOURCE TBUF R_PUBLISHER_INFORMATION				{buf = qtn_publisher_information;}
+RESOURCE TBUF R_AUTOR_INFORMATION					{buf = qtn_autor_information;}
+RESOURCE TBUF R_COPYRIGHT_INFORMATION				{buf = qtn_copyright_information;}
+RESOURCE TBUF R_SUPPORT_INFORMATION					{buf = qtn_support_information;}
+RESOURCE TBUF R_EMAIL_INFORMATION					{buf = qtn_email_information;}
+
+RESOURCE TBUF R_BUF_GOTOBUY_DLGMSG					{buf = qtn_gotobuy_dlgmsg;}
+
+
+RESOURCE AVKON_BUTTON r_button_to_fm
+    {
+    flags  = 0;
+    states =
+            {
+            AVKON_BUTTON_STATE
+                {
+                txt = STR_OpenTransmitter;
+                }  
+            };
+}
+RESOURCE AVKON_BUTTON r_button_switch
+    {
+    flags  = 0;
+    states =
+            {
+            AVKON_BUTTON_STATE
+                {
+                txt = "";
+                }  
+            };
+}
+
+RESOURCE AVKON_BUTTON r_button_to_ovi
+    {
+    flags  = 0;
+    states =
+            {
+            AVKON_BUTTON_STATE
+                {
+                txt = qtn_menu_goto_ovi;
+                }  
+            };
+}
+RESOURCE TBUF r_disable {buf=STR_TurnOff;}
+RESOURCE TBUF r_enable {buf=STR_TurnOn;}
+RESOURCE TBUF r_not_supported {buf=STR_NotSupported;}
+RESOURCE TBUF r_error {buf=STR_Error;}

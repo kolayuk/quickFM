@@ -1,0 +1,36 @@
+/*
+========================================================================
+ Name        : quickFM.l01
+ Author      : Usanov-Kornilov Nikolay (aka Kolay)
+ Copyright   : 
+Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2011
+
+ Description : 
+========================================================================
+*/
+// localized strings for language: UK English (01)
+#define STR_quickFMApplication_5 "quickFM"
+#define STR_quickFMApplication_1 ""
+#define STR_quickFMApplication_2 ""
+#define STR_quickFMApplication_3 ""
+#define STR_quickFMApplication_4 "quickFM"
+#define qtn_menu_goto_ovi						"Other products"
+#define qtn_gotobuy_dlgmsg						"Now the page with our products in Ovi Store shop will be opened in the browser."
+
+#define qtn_cancel								"Cancel"
+#define qtn_continue							"Continue"
+
+#define qtn_publisher_information				"Published by Alexander Fokin"
+#define qtn_autor_information					"Developed by Usanov-Kornilov Nickolay"
+#define qtn_copyright_information				"(c) 2011"
+#define qtn_support_information					"Send all your questions and wishes to:"
+#define qtn_email_information					"support@symdeveloper.ru"
+#define STR_OpenTransmitter						"FM-Transmitter"
+#define STR_TurnOff								"Disable"
+#define STR_TurnOn								"Enable"
+#define STR_NotSupported						"FM-transmitter is not supported"
+#define STR_Error								"Unable to switch! Error %d"

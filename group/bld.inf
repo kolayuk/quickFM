@@ -1,0 +1,26 @@
+
+PRJ_PLATFORMS
+WINSCW ARMV5 GCCE
+
+
+#ifdef SBSV2
+
+PRJ_EXTENSIONS
+	
+	START EXTENSION s60/mifconv
+	OPTION TARGETFILE quickfm_0x20040CBC.mif
+	OPTION HEADERFILE quickfm_0x20040CBC.mbg
+	OPTION SOURCEDIR ../gfx
+	OPTION SOURCES -c32 qgn_menu_quickFM
+	END
+
+#else
+
+PRJ_MMPFILES
+
+	gnumakefile icons_scalable_dc.mk
+
+#endif
+
+PRJ_MMPFILES
+quickFM.mmp
